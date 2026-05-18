@@ -16,7 +16,12 @@ import machupX as MX
 # Input the json module to make displaying dictionaries more friendly
 import json
 
+import os
+
 if __name__=="__main__":
+
+    # Change to the script's directory so relative paths in JSON files resolve correctly
+    os.chdir(os.path.dirname(__file__))
 
     # Define the input file. The input file will contain the path to the aircraft
     # file, and so this does not need to be defined here.
