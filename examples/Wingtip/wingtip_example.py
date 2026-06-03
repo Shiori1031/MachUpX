@@ -7,7 +7,7 @@ $ python wingtip_example.py
 The input file is also written such that the same analyses will be performed if run using
 the `python -m` command. This is done using:
 
-$ python -m machupX swarm_input.json
+$ python -m machupX wingtip_input.json
 """
 
 # Import the MachUpX module
@@ -25,7 +25,7 @@ if __name__=="__main__":
 
     # Define the input file. The input file will contain the path to the aircraft
     # file, and so this does not need to be defined here.
-    input_file = "swarm_input.json"
+    input_file = "wingtip_input.json"
 
     # Initialize Scene object. This contains the airplane and all necessary
     # atmospheric data.
