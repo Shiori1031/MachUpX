@@ -1,7 +1,10 @@
 {
-    "CG" : [0,0,0],
-    "weight" : 5.8,
+    "CG" : [0.008, 0, 0],
+    "weight" : 14.2,
     "reference" : {
+        "area" : 0.254,
+        "lateral_length" : 1.22,
+        "longitudinal_length" : 0.225
     },
     "controls" : {
         "aileron" : {
@@ -54,8 +57,9 @@
             "ID" : 1,
             "side" : "both",
             "is_main" : true,
-            "semispan" : 0.58,
-            "chord" : 0.18,
+            "semispan" : 0.61,
+            "chord" : [[0.0, 0.25],
+                       [1.0, 0.2]],
             "airfoil" : "NACA_4412",
             "control_surface" : {
                 "chord_fraction" : 0.25,
@@ -74,12 +78,12 @@
             "connect_to" : {
                 "ID" : 1,
                 "location" : "root",
-                "dx": -12,
-                "dz": 0
+                "dx" : -0.572,
+                "dz" : 0
             },
-            "semispan" : 0.58,
+            "semispan" : 0.22,
             "sweep" : 0.0,
-            "chord" : 0.18,
+            "chord" : 0.15,
             "airfoil" : "NACA_4412",
             "control_surface": {
                 "chord_fraction" : 0.25,
@@ -98,12 +102,12 @@
             "connect_to" : {
                 "ID" : 1,
                 "location" : "root",
-                "dx" : -0.47,
+                "dx" : -0.572,
                 "dz" : 0
             },
-            "semispan" : 0.16,
+            "semispan" : 0.2,
             "sweep" : 0.0,
-            "chord" : 0.12,
+            "chord" : 0.14,
             "dihedral" : 90.0,
             "airfoil" : "NACA_0012",
             "control_surface": {

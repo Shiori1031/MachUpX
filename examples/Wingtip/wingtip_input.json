@@ -11,17 +11,19 @@
         "derivatives" : {}
     },
     "solver" : {
-        "type" : "nonlinear"
+        "type" : "linear",
+        "relaxation" : 0.5,
+        "max_iterations" : 200
     },
-    "units" : "English",
+    "units" : "SI",
     "scene" : {
         "atmosphere" : {},
         "aircraft" : {
             "drone0" : {
                 "file" : "wingtip_drone.json",
                 "state" : {
-                    "position" : [-10.0, -1.18, -50.0],
-                    "velocity" : [20.0, 0.0, 0.0, "kn"],
+                    "position" : [-3.0, -1.23, -15.0],
+                    "velocity" : [10.3, 0.0, 0.0],
                     "orientation" : [0.9961946980917455, 0.0, 0.08715574274765817, 0.0],
                     "angular_rates" : [0.0, 0.0, 0.0]
                 },
@@ -34,8 +36,8 @@
             "drone1" : {
                 "file" : "wingtip_drone.json",
                 "state" : {
-                    "position" : [-10.0, 0.0, -50.0],
-                    "velocity" : [20.0, 0.0, 0.0, "kn"],
+                    "position" : [-3.0, 0.0, -15.0],
+                    "velocity" : [10.3, 0.0, 0.0],
                     "orientation" : [0.9961946980917455, 0.0, 0.08715574274765817, 0.0],
                     "angular_rates" : [0.0, 0.0, 0.0]
                 },
@@ -48,8 +50,8 @@
             "drone2" : {
                 "file" : "wingtip_drone.json",
                 "state" : {
-                    "position" : [-10.0, 1.18, -50.0],
-                    "velocity" : [20.0, 0.0, 0.0, "kn"],
+                    "position" : [-3.0, 1.23, -15.0],
+                    "velocity" : [10.3, 0.0, 0.0],
                     "orientation" : [0.9961946980917455, 0.0, 0.08715574274765817, 0.0],
                     "angular_rates" : [0.0, 0.0, 0.0]
                 },
