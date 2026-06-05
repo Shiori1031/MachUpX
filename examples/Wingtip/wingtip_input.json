@@ -22,7 +22,7 @@
             "drone0" : {
                 "file" : "wingtip_drone.json",
                 "state" : {
-                    "position" : [-3.0, -1.23, -15.0],
+                    "position" : [-3.0, -1.225, -15.0],
                     "velocity" : [15.0, 0.0, 0.0],
                     "orientation" : [0.9961946980917455, 0.0, 0.08715574274765817, 0.0],
                     "angular_rates" : [0.0, 0.0, 0.0]
@@ -50,7 +50,7 @@
             "drone2" : {
                 "file" : "wingtip_drone.json",
                 "state" : {
-                    "position" : [-3.0, 1.23, -15.0],
+                    "position" : [-3.0, 1.225, -15.0],
                     "velocity" : [15.0, 0.0, 0.0],
                     "orientation" : [0.9961946980917455, 0.0, 0.08715574274765817, 0.0],
                     "angular_rates" : [0.0, 0.0, 0.0]
