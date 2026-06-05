@@ -32,23 +32,23 @@
         "NACA_0012": {
             "type": "linear",
             "aL0": 0.0,
-            "CLa": 7.6018,
+            "CLa": 5.5,
             "CmL0": 0.0,
-            "Cma": 0.00,
-            "CD0": 0.008,
+            "Cma": 0.0,
+            "CD0": 0.015,
             "CD1": 0.0,
-            "CD2": 0.0984,
+            "CD2": 0.04,
             "CL_max": 1.4
         },
         "NACA_4412": {
             "type": "linear",
-            "aL0": 0.0,
-            "CLa": 5.959,
-            "CmL0": -0.101,
-            "Cma": 0.00,
-            "CD0": 0.008,
-            "CD1": 0.0,
-            "CD2": 0.0984,
+            "aL0": -0.084805,
+            "CLa": 5.5953,
+            "CmL0": -0.080494,
+            "Cma": 0.0480,
+            "CD0": 0.016408,
+            "CD1": -0.027913,
+            "CD2": 0.021683,
             "CL_max": 1.4
         }
     },
@@ -84,7 +84,7 @@
             "semispan" : 0.22,
             "sweep" : 0.0,
             "chord" : 0.15,
-            "airfoil" : "NACA_4412",
+            "airfoil" : "NACA_0012",
             "control_surface": {
                 "chord_fraction" : 0.25,
                 "control_mixing": {
